@@ -5,7 +5,7 @@ export const MovieList = ({ movies }) => {
   return (
     <>
       {movies.map(movie => (
-        <MovieCard key={movie.id} movie={movie} />
+        <MovieCard key={movie.imdbId} movie={movie} />
       ))}
     </>
   );
